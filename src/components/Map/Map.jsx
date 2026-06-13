@@ -11,7 +11,7 @@ const Map = () => {
         allowFullScreen=""
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        title="FitnessGym Location"></iframe>
+        title="hydra gym  Location"></iframe>
     </div>
   );
 };

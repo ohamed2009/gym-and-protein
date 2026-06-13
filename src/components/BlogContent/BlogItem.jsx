@@ -10,7 +10,7 @@ const BlogItem = (props) => {
       <div className="blog__content">
         <div className="blog__icons">
           <span className="blog__span">
-            <FaUser className="blog__icon" /> By FitnessGym Team
+            <FaUser className="blog__icon" /> By hydra gym  Team
           </span>
           <span className="blog__span">
             <FaCalendarAlt className="blog__icon" /> {props.month} 2023

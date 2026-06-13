@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="footer__content">
           <div className="footer__box">
             <Link to="/" className="footer__logo">
-              <p className="footer__logo-text">FitnessGym</p>
+              <p className="footer__logo-text">hydra gym </p>
             </Link>
             <div className="footer__desc">
               Join our gym to strengthen your body, improve fitness, and achieve
@@ -85,7 +85,7 @@ const Footer = () => {
         <div className="footer__date">
           <p>
             &copy; Copyright {new Date().getFullYear()}
-            <span className="footer__logo-name"> FitnessGym </span>
+            <span className="footer__logo-name"> hydra gym  </span>
             All Rights Reserved.
           </p>
           <div className="footer__icons">

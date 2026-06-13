@@ -16,7 +16,7 @@ const TotalAmount = () => {
   const closeModal = () => {
     setIsModalOpen(false);
     resetCart();
-    navigate("/FitnessGym/");
+    navigate("/hydra gym /");
   };
 
   return (

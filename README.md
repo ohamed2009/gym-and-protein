@@ -1,17 +1,17 @@
-# FitnessGym-Website
+# hydra gym -Website
 
 > 🚀 **Modern Fitness Website with React** - Build dynamic fitness platforms with interactive features and responsive design
 
 ## 📋 Description
 
-Welcome to the **FitnessGym-Web-App** repository! This project showcases a modern and fully responsive fitness website built with React, offering dynamic features such as a product shop, trainer profiles, gym services, and interactive schedules. The platform delivers an engaging experience for fitness enthusiasts with cutting-edge frontend technologies.
+Welcome to the **hydra gym -Web-App** repository! This project showcases a modern and fully responsive fitness website built with React, offering dynamic features such as a product shop, trainer profiles, gym services, and interactive schedules. The platform delivers an engaging experience for fitness enthusiasts with cutting-edge frontend technologies.
 
 This repository demonstrates best practices in React development, component-based architecture, and modern web design patterns for fitness and wellness platforms.
 
 ## 📁 Repository Structure
 
 ```
-FitnessGym-Website/
+hydra gym -Website/
 ├── 📁 public/           # Static public files and assets
 ├── 📁 src/
 │   ├── 🖼️ assets/       # Images, media, and graphic resources
@@ -28,8 +28,8 @@ FitnessGym-Website/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/chapi1234/FitnessGym-Web-App.git
-cd FitnessGym-Web-App
+git clone https://github.com/chapi1234/hydra gym -Web-App.git
+cd hydra gym -Web-App
 ```
 
 ### 2. Install Dependencies
@@ -121,7 +121,7 @@ The project is deployed and available at: **[https://fitnesgym.vercel.app](https
 
 ## 🖼️ Preview
 
-[<img src="src/assets/fitnessgym.dawidolko.pl_.png" width="80%" alt="FitnessGym Website Preview"/>](src/assets/fitnessgym.dawidolko.pl_.png)
+[<img src="src/assets/fitnessgym.dawidolko.pl_.png" width="80%" alt="hydra gym  Website Preview"/>](src/assets/fitnessgym.dawidolko.pl_.png)
 
 ## 🤝 Contributing
 
@@ -136,7 +136,7 @@ Feel free to open issues or reach out through GitHub for any questions or sugges
 
 ## 👨‍💻 Author
 
-Created by **Metasebiyaw Asfaw** - Part of the **FitnessGym** project series.
+Created by **Metasebiyaw Asfaw** - Part of the **hydra gym ** project series.
 
 ## 📄 License
 
