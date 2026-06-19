@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn how to make authentic Spaghetti Bolognese with this detailed recipe guide.">
+    <title>Spaghetti Bolognese Recipe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f7f4;
+        }
+
+        header {
+            background: linear-gradient(135deg, #8b0000 0%, #ff6b6b 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Recipe Header Info Section */
+        .recipe-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-item {
+            text-align: center;
+        }
+
+        .info-item strong {
+            display: block;
+            color: #8b0000;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .info-item span {
+            font-size: 1.3rem;
+        }
+
+        /* Image Section */
+        .recipe-image {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Main Sections */
+        section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #8b0000;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid #ff6b6b;
+            padding-bottom: 0.5rem;
+        }
+
+        /* Ingredients List */
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.8rem;
+            line-height: 1.8;
+        }
+
+        /* Instructions List */
+        ol {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        ol li {
+            margin-bottom: 1.2rem;
+            line-height: 1.8;
+        }
+
+        /* Nutritional Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        table thead {
+            background-color: #8b0000;
+            color: white;
+        }
+
+        table th,
+        table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        table tbody tr:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+
+        table tbody tr:hover {
+            background-color: #ffe0e0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+
+            .recipe-info {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            table {
+                font-size: 0.95rem;
+            }
+
+            table th,
+            table td {
+                padding: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Header of the Page -->
+    <header>
+        <h1>Spaghetti Bolognese</h1>
+        <p>Classic Italian Pasta Dish - Easy & Delicious</p>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Recipe Image Section -->
+        <figure class="recipe-image">
+            <img 
+                src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&q=80" 
+                alt="Delicious plate of Spaghetti Bolognese with red meat sauce, topped with fresh parmesan cheese and basil"
+                title="Spaghetti Bolognese"
+            >
+            <figcaption style="margin-top: 0.5rem; color: #666; font-size: 0.95rem;">
+                Fresh Spaghetti Bolognese - Ready to Serve
+            </figcaption>
+        </figure>
+
+        <!-- Recipe Quick Info Section -->
+        <div class="recipe-info">
+            <div class="info-item">
+                <strong>⏱️ Prep Time</strong>
+                <span>15 minutes</span>
+            </div>
+            <div class="info-item">
+                <strong>🍳 Cook Time</strong>
+                <span>30 minutes</span>
+            </div>
+            <div class="info-item">
+                <strong>👥 Servings</strong>
+                <span>4 servings</span>
+            </div>
+            <div class="info-item">
+                <strong>📊 Difficulty</strong>
+                <span>Easy</span>
+            </div>
+        </div>
+
+        <!-- Ingredients Section -->
+        <section>
+            <h2>Ingredients</h2>
+            <ul>
+                <li><strong>400g</strong> spaghetti pasta</li>
+                <li><strong>500g</strong> ground beef (80/20 blend)</li>
+                <li><strong>1</strong> medium onion, finely diced</li>
+                <li><strong>3</strong> cloves garlic, minced</li>
+                <li><strong>2 tbsp</strong> tomato paste</li>
+                <li><strong>400g</strong> canned crushed tomatoes</li>
+                <li><strong>100ml</strong> whole milk</li>
+                <li><strong>2 tbsp</strong> olive oil</li>
+                <li><strong>1</strong> bay leaf</li>
+                <li><strong>Salt and black pepper</strong> to taste</li>
+                <li><strong>1 tsp</strong> dried oregano</li>
+                <li><strong>1 tsp</strong> dried basil</li>
+                <li><strong>Parmesan cheese</strong> for topping</li>
+                <li><strong>Fresh basil leaves</strong> (optional garnish)</li>
+            </ul>
+        </section>
+
+        <!-- Cooking Instructions Section -->
+        <section>
+            <h2>Cooking Instructions</h2>
+            <ol>
+                <li>
+                    <strong>Prepare the ingredients:</strong> Dice the onion and mince the garlic. Set aside. Bring a large pot of salted water to boil.
+                </li>
+                <li>
+                    <strong>Brown the meat:</strong> Heat olive oil in a large pan over medium-high heat. Add ground beef, breaking it up with a spoon. Cook until fully browned (about 5-7 minutes). Drain excess fat if necessary.
+                </li>
+                <li>
+                    <strong>Sauté aromatics:</strong> Add diced onion to the pan and cook for 3-4 minutes until softened. Add minced garlic and cook for another minute until fragrant.
+                </li>
+                <li>
+                    <strong>Add tomato paste:</strong> Stir in tomato paste and cook for 1-2 minutes to caramelize slightly, which enhances the flavor.
+                </li>
+                <li>
+                    <strong>Add crushed tomatoes:</strong> Pour in the canned crushed tomatoes. Stir well to combine all ingredients.
+                </li>
+                <li>
+                    <strong>Season the sauce:</strong> Add bay leaf, oregano, basil, salt, and black pepper. Stir and bring to a simmer.
+                </li>
+                <li>
+                    <strong>Simmer the sauce:</strong> Reduce heat to low and let the sauce simmer for 20-25 minutes, stirring occasionally. The sauce should thicken and flavors will develop.
+                </li>
+                <li>
+                    <strong>Add milk:</strong> In the last 5 minutes of cooking, slowly add milk while stirring. This creates a creamy, authentic Bolognese sauce. Do not boil.
+                </li>
+                <li>
+                    <strong>Cook the pasta:</strong> While the sauce simmers, add spaghetti to the boiling water. Cook according to package directions (typically 8-12 minutes) until al dente.
+                </li>
+                <li>
+                    <strong>Combine and serve:</strong> Drain the pasta and divide into serving bowls. Top generously with the Bolognese sauce. Sprinkle with fresh parmesan cheese and basil if desired.
+                </li>
+            </ol>
+        </section>
+
+        <!-- Nutritional Information Section -->
+        <section>
+            <h2>Nutritional Information</h2>
+            <p><strong>Per Serving (1 of 4):</strong></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nutrient</th>
+                        <th>Amount</th>
+                        <th>% Daily Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Calories</td>
+                        <td>620 kcal</td>
+                        <td>31%</td>
+                    </tr>
+                    <tr>
+                        <td>Protein</td>
+                        <td>35g</td>
+                        <td>70%</td>
+                    </tr>
+                    <tr>
+                        <td>Carbohydrates</td>
+                        <td>65g</td>
+                        <td>21%</td>
+                    </tr>
+                    <tr>
+                        <td>Total Fat</td>
+                        <td>18g</td>
+                        <td>28%</td>
+                    </tr>
+                    <tr>
+                        <td>Saturated Fat</td>
+                        <td>6g</td>
+                        <td>30%</td>
+                    </tr>
+                    <tr>
+                        <td>Fiber</td>
+                        <td>4g</td>
+                        <td>16%</td>
+                    </tr>
+                    <tr>
+                        <td>Sodium</td>
+                        <td>520mg</td>
+                        <td>23%</td>
+                    </tr>
+                    <tr>
+                        <td>Calcium</td>
+                        <td>180mg</td>
+                        <td>18%</td>
+                    </tr>
+                    <tr>
+                        <td>Iron</td>
+                        <td>5mg</td>
+                        <td>28%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Additional Tips Section -->
+        <section>
+            <h2>Chef's Tips & Variations</h2>
+            <ul>
+                <li><strong>Make it vegetarian:</strong> Replace ground beef with finely chopped mushrooms and lentils for a plant-based version.</li>
+                <li><strong>Cook ahead:</strong> This sauce freezes well for up to 3 months. Make a double batch and freeze portions.</li>
+                <li><strong>Wine addition:</strong> Add 100ml of red wine after browning the meat for deeper flavor (let it simmer off before adding tomatoes).</li>
+                <li><strong>Fresh vs. canned tomatoes:</strong> In summer, use fresh tomatoes (about 6-8 medium ones, blended). In winter, canned tomatoes are just as good.</li>
+                <li><strong>Pasta choice:</strong> While spaghetti is traditional, this sauce works beautifully with pappardelle, tagliatelle, or rigatoni.</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Recipe Collection | Authentic Italian Recipes</p>
+        <p>Enjoy your cooking! Share your results on social media #SpaghettiLove</p>
+    </footer>
+</body>
+</html>
